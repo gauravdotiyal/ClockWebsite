@@ -1,0 +1,31 @@
+Steps to add your project on github
+
+1.git config --global user.name "Your name"
+2.git config --global user.email "Your email"
+3.touch .gitignore => Make folder to store ignoring folders
+
+NOW REAL STEPS START
+1.git init
+2.git add .
+3.git commit -m "Initial Commit"
+4.git status // Here git status is clean now
+//Now copy link in ssh from github
+5.git remote add origin (paste ssh link here to link this folder to github)
+6.git push origin //If the repo is private then genrate ssh authentication key
+
+{
+ generate authentication key:
+1.search on google copy link 
+2.go to setting find ssh key 
+3.paste the google search link in git generate the ssh key in same path
+5.cat (paste path in which key is generate)
+}
+
+7.git push origin master
+{Now project is shown in the github}
+
+//If we done some changes in the folder to see it in github
+1.git status (shows that there are some changes)
+2.git add .
+3.git commit -m "msg"
+4.git push origin master

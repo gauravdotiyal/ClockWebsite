@@ -1,0 +1,46 @@
+*{
+    background-color: black;
+}
+#Container{
+  position: relative;
+  /* border:2px solid red; */
+  margin: auto; /*It put the container box in center*/ 
+  height: 50vw;
+  width: 50vw;
+  /* height: 440px;
+  width: 440px; */
+  background: url('clock.png') no-repeat;
+  background-size: 100%;
+}   
+#hour,#minute,#second{
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+}
+#hour{
+    width: 2%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+    opacity: 0.8;
+    transform-origin: bottom; /*For making the rotation from bottom*/
+    /* display: none; */
+}
+#minute{
+    width: 1.5%;
+    height: 30.5%;
+    top: 19%;
+    left: 48.8%; 
+    opacity: 0.8;
+    transform-origin: bottom; 
+    /* display: none; */
+}
+#second{
+    width: 1%;
+    height: 33.5%;
+    top: 16%;
+    left: 49.3%;
+    opacity: 0.8;
+    transform-origin: bottom; 
+    /* display: none; */
+}

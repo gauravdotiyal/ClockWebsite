@@ -29,3 +29,10 @@ NOW REAL STEPS START
 2.git add .
 3.git commit -m "msg"
 4.git push origin master
+
+//If I want to update existing project and want to see changes in git 
+1.First do changes in file itselg
+2.git add .
+3.git status //confirm to see that file changes
+4.git commit -m "updated message"
+5.git push origin master
